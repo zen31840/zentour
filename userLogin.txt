@@ -1,0 +1,25 @@
+
+
+daisy@apollographql.com
+
+ZGFpc3lAYXBvbGxvZ3JhcGhxbC5jb20=
+
+zen31840@gmail.com
+emVuMzE4NDBAZ21haWwuY29t
+
+apollographql.com/zen31840
+
+
+ApolloGraphQL API Key
+// .env
+ENGINE_API_KEY=user:fp.fb0a23eb-7a7e-45d8-bc67-fc106298284d:qhennExQuksKuEIml8cbWg
+
+ENGINE_API_KEY=service:zen-tour:qhennExQuksKuEIml8cbWg
+
+module.exports = {
+  service: {
+    name: "zen-tour"
+  }
+}
+
+ npx apollo service:push --endpoint=http://localhost:4000
